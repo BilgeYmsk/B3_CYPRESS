@@ -1,7 +1,11 @@
 
+/*
+describe('First Test Suit ',()=>{  //Test Suitlerimiz function yerine bu sekilde de yazilabilir!!
 
-/*describe('First Test Suit ',()=>{  //Test Suitlerimiz function yerine bu sekilde de yazilabilir!!
-
+    beforeEach(()=>{
+        cy.visit('')
+    })
+    
     it(' First Test Case',()=>{  //Test Caselerimizi bu sekilde yaziyoruz 
 
         syntax 
@@ -16,6 +20,7 @@
     })
 })
 */
+
 
 
 describe('First Test Suit ',function(){  //Test Suitlerimiz
