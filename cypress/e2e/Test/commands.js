@@ -84,7 +84,5 @@ cy.get(loc).trigger('mouseover').click()  //mausu hareket ettiriyor
 cy.get(loc).trigger('mouseup').click()
 cy.get(loc).trigger('mousedown').click()
 
-
-
 //login
 cy.get('#username').clear().type('username');
