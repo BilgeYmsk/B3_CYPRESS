@@ -9,7 +9,7 @@ describe('First Test ', () => {
         cy.get('#L2AGLb > .QS5gu').click()
         cy.get('.gLFyf').should('be.visible').type('cypress{enter}');
         cy.url().should('include','cypress')
-        cy.get('[href="https://www.cypress.io/"] > .TbwUpd > .iUh30')
+        cy.get('[href="https://www.cypress.io/"] > .LC20lb')
           .should('have.text','JavaScript End to End Testing Framework | cypress.io testing ...')
           .click()
 
